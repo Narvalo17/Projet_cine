@@ -1,0 +1,106 @@
+@import url(./reset.css);
+html{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), 
+    url(../asset/cover.jpg)no-repeat fixed center center  / cover;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+header h1{
+    font-family: "Protest Revolution";
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20rem;
+}
+
+section h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+section h3 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.logo-cine{
+    display: inline-block;
+    width: 5rem;
+    vertical-align: middle;
+}
+
+section img{
+    width: 100%;
+}
+.grid-2, .grid-12 {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+.grid-2 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+.grid-2 ul li *{
+    color: #fff;
+    
+}
+.grid-2 ul li img{
+    border-radius: 3rem;
+}
+.grid-12 ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+   
+}
+.grid-12{
+    margin-top: 5rem;
+}
+.grid-12 ul li img{
+    height: 20rem;
+    border-radius: 3rem;
+}
+.grid-12 h4{
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+}
