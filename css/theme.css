@@ -104,3 +104,8 @@ section img{
     color: #fff;
     font-size: 3.5rem;
 }
+div.form{
+    max-width: 100rem;
+    margin: 5rem auto;
+    color: #fff;
+}
