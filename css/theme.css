@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4e0101;
     color: white;
     padding: 2rem;
     text-align: center;
@@ -27,7 +27,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    background-color: #333;
+    background-color: #ec0000;
     padding: 1rem 0;
 }
 
@@ -50,6 +50,11 @@ section {
     margin-bottom: 20rem;
 }
 
+section h1{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
 section h2 {
     color: #fff;
     margin-bottom: 1rem;
@@ -58,6 +63,10 @@ section h2 {
 section h3 {
     color: #fff;
     margin-bottom: 2rem;
+}
+section h4 {
+    color: #fff;
+    margin-bottom: 0rem;
 }
 
 .logo-cine{
