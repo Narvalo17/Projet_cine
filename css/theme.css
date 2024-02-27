@@ -1,10 +1,9 @@
 @import url(./reset.css);
-html{
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), 
-    url(../asset/cover.jpg)no-repeat fixed center center  / cover;
+
+html {
+    background: linear-gradient(to top, rgba(2, 2, 2, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
+        url(../asset/cover.jpg)no-repeat fixed center center / cover;
 }
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +18,8 @@ header {
     padding: 2rem;
     text-align: center;
 }
-header h1{
+
+header h1 {
     font-family: "Protest Revolution";
 }
 
@@ -30,6 +30,7 @@ nav ul {
     background-color: #ec0000;
     padding: 1rem 0;
 }
+
 
 nav ul li {
     display: inline;
@@ -50,7 +51,7 @@ section {
     margin-bottom: 20rem;
 }
 
-section h1{
+section h1 {
     color: #fff;
     margin-bottom: 1rem;
 }
@@ -64,57 +65,100 @@ section h3 {
     color: #fff;
     margin-bottom: 2rem;
 }
+
 section h4 {
     color: #fff;
     margin-bottom: 0rem;
 }
 
-.logo-cine{
+.logo-cine {
     display: inline-block;
     width: 5rem;
     vertical-align: middle;
 }
 
-section img{
+section img {
     width: 100%;
 }
-.grid-2, .grid-12 {
+
+.grid-2,
+.grid-12 {
     max-width: 90rem;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1rem;
+    border-radius: .4rem;
 }
+
 .grid-2 ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: center;
 }
-.grid-2 ul li *{
+
+.grid-2 ul li * {
     color: #fff;
-    
+
 }
-.grid-2 ul li img{
+
+.grid-2 ul li img {
     border-radius: 3rem;
 }
-.grid-12 ul{
+
+.grid-12 ul {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
-   
+
 }
-.grid-12{
+
+.grid-12 {
     margin-top: 5rem;
 }
-.grid-12 ul li img{
+
+.grid-12 ul li img {
     height: 20rem;
     border-radius: 3rem;
 }
-.grid-12 h4{
+
+.grid-12 h4 {
     text-align: center;
     color: #fff;
     font-size: 3.5rem;
 }
-div.form{
+
+div.form {
     max-width: 100rem;
     margin: 5rem auto;
     color: #fff;
+}
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+    background-color: #ec0000;
+    border: 0;
+    color: black;
+}
+
+input[type='color'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='week'],
+input:not([type]),
+textarea,
+select {
+    background-color: #fff;
 }
