@@ -143,8 +143,9 @@ input[type='reset'],
 input[type='submit'] {
     background-color: #ec0000;
     border: 0;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
+
 
 input[type='color'],
 input[type='date'],
@@ -162,5 +163,6 @@ input[type='week'],
 input:not([type]),
 textarea,
 select {
-    background-color: #ffffff;
+    background-color: #fcf8f8;
+    
 }
