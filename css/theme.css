@@ -141,9 +141,9 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-    background-color: #ec0000;
+    background-color: #d80606;
     border: 0;
-    color: rgb(254, 247, 247);
+    color: rgb(255, 245, 245);
 }
 
 
