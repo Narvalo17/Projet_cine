@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
        
 
         e.preventDefault();
-        //alert("ok")
+        
         
      if (form.value === '') {
             Swal.fire({
