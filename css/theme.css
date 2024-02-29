@@ -166,3 +166,10 @@ select {
     background-color: #fcf8f8;
     
 }
+footer {
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
