@@ -1,11 +1,11 @@
 [
     {
-        "Image": "asset/7.jpg",
-        "Titre": "Mr Wolf",
-        "Synopsis": "Le comptable Christian Wolff travaille pour diverses sociétés illégales et manipule leurs dossiers financiers. Lorsque le FBI découvre sa vérité, il prend un client légitime pour bluffer les agents.",
-        "Acteur": "Ben Affleck, Anna Kendrick, JK Simmons, Jon Bernthal, Cynthia Addai-Robinson",
-        "Date de sortie":"2016",
-        "Realisateur": "Gavin O'Connor"
+            "Image": "asset/7.jpg",
+            "Titre": "Mr Wolf",
+            "Synopsis": "Le comptable Christian Wolff travaille pour diverses sociétés illégales et manipule leurs dossiers financiers. Lorsque le FBI découvre sa vérité, il prend un client légitime pour bluffer les agents.",
+            "Acteur": "Ben Affleck, Anna Kendrick, JK Simmons, Jon Bernthal, Cynthia Addai-Robinson",
+            "Date de sortie":"2016",
+            "Realisateur": "Gavin O'Connor"
         },
         {
             "Image": "asset/13.jpg",

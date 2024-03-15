@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         e.preventDefault();
         
-        
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
      if (form.value === '') {
             Swal.fire({
                 icon: "error",
