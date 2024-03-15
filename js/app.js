@@ -1,5 +1,16 @@
 
+import { Theme } from "./controleur.js";
 
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("loadContent");
+
+// Jour nuit
+    let theme = new Theme();
+    let switchButton = document.querySelector(".switch input");
+    switchButton.addEventListener("click", () => {
+        theme.changeTheme(switchButton);
+    });
+});
 document.addEventListener('DOMContentLoaded', function() {
     let form = document.querySelectorAll('input')[0];
     const btn = document.querySelector(".btn-validate")
