@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
     let form = document.querySelectorAll('input')[0];
     const btn = document.querySelector(".btn-validate")
