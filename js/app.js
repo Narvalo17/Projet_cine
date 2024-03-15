@@ -1,14 +1,14 @@
-
 import { Theme } from "./controleur.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log("loadContent");
 
-// Jour nuit
     let theme = new Theme();
-    let switchButton = document.querySelector(".switch input");
-    switchButton.addEventListener("click", () => {
-        theme.changeTheme(switchButton);
+
+    let switchButton = document.getElementById("darkModeSwitch");
+
+    switchButton.addEventListener("change", () => {
+        theme.changeTheme();
     });
 });
 document.addEventListener('DOMContentLoaded', function() {

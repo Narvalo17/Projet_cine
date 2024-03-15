@@ -1,5 +1,4 @@
 export class Theme {
-
     themeName;
 
     constructor() {
@@ -7,18 +6,17 @@ export class Theme {
         document.documentElement.className = this.themeName;
     }
 
-    setTheme(theme) {
-        this.themeName = theme;
-        localStorage.setItem('theme', theme);
-        document.documentElement.className = theme;
-    }
-
-    changeTheme(button) {
+    changeTheme() {
         if (this.themeName === 'theme-dark') {
             this.setTheme('theme-light');
         } else {
             this.setTheme('theme-dark');
         }
-        console.log('theme', this.themeName);
+    }
+
+    setTheme(theme) {
+        this.themeName = theme;
+        localStorage.setItem('theme', theme);
+        document.documentElement.className = theme;
     }
 }

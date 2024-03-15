@@ -1,4 +1,6 @@
 @import url(./reset.css);
+@import url(style.css);
+
 
 html {
     background: linear-gradient(to top, rgba(2, 2, 2, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
@@ -224,4 +226,3 @@ footer {
   .slider.round:before {
     border-radius: 50%;
   }
-  
