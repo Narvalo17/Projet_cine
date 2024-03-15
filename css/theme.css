@@ -3,11 +3,23 @@
 
 
 html {
-    background: linear-gradient(to top, rgba(2, 2, 2, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
-        url(../asset/cover.jpg)no-repeat fixed center center / cover;
+    font-size: 62.5%;
+    transition-duration: 1s;
 }
-
+.theme-dark{
+    background: linear-gradient(to top, rgba(2, 2, 2, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
+    url(../asset/cover.jpg)no-repeat fixed center center / cover;
+   
+   
+}
+.theme-light{
+    background: linear-gradient(to top, rgba(233, 228, 228, 0.2)10%, rgba(233, 228, 228, 0.2)10%),
+    url(../asset/cover.jpg)no-repeat fixed center center / cover;
+   
+    
+}
 body {
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -220,9 +232,14 @@ footer {
   
  
   .slider.round {
-    border-radius: 34px;
+    border-radius: 34px; 
   }
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  /* composant warning */
+  div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    line-height: inherit;
   }
