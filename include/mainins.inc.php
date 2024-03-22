@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="theme-dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinéma a volonté</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-    <link rel="icon" type="image/x-icon" href="./Favicon/favicon.ico">
-    <link rel="stylesheet" href="css/theme.css">
-
-</head>
-<body>
-  <header>
-    <h1>Cinéma a volanté</h1>
-  </header>
-  <nav>
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="nos-film.html">Nos films</a></li>
-        <li><a href="identification.html">S'identifier</a></li>
-        <li><a href="#">S'inscrire</a></li>
-        <li><label class="switch">
-          <input type="checkbox" id="darkModeSwitch">
-          <span class="slider round"></span>
-        </label></li>
-    </ul>
-  </nav>
-  <main>
+<main>
     <section>
       <main> 
         <section>
@@ -75,10 +46,3 @@
     </div>
 
     </main>
-    <script script type="module" src="./js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <footer> &copy; - Ciné - <a href="#url" class="branch-name"></a>Mansouri Youcef - 2024</footer>
-   
-
-<body>
-</html>
