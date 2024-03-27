@@ -115,9 +115,12 @@ section img {
 
 .grid-2 ul li * {
     color: #fff;
+    user-select: none;
 
 }
-
+.grid-2 ul li p{
+    user-select: none;
+}
 .grid-2 ul li img {
     border-radius: 3rem;
 }
