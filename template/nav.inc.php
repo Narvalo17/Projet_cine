@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li><a href="#">Accueil</a></li>
+        <li><a href="index.php">Accueil</a></li>
         <li><a href="nos-film.php">Nos films</a></li>
         <li><a href="identification.php">S'identifier</a></li>
         <li><a href="inscription.php">S'inscrire</a></li>
