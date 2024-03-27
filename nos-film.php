@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinéma a volonté</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-    <link rel="stylesheet" href="./css/theme.css">
-    <link rel="icon" type="image/x-icon" href="./Favicon/favicon.ico">
-
-</head>
+<?php
+  include_once __DIR__ ."/template/head.inc.php";
+?>
 <body>
   <header>
     <h1>Cinéma a volonté</h1>
   </header>
-  <nav>
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="#">Nos films</a></li>
-        <li><a href="identification.html">S'identifier</a></li>
-        <li><a href="inscription.html">S'inscrire</a></li>
-    </ul>
-  </nav>
+  <?php
+  include_once __DIR__."/template/nav.inc.php";
+  ?>  
   <main> 
     <section>
         <h2>
@@ -62,6 +47,9 @@
       </ul>
     </div>
 </main>
-<footer> &copy; - Ciné - <a href="#url" class="branch-name"></a>Mansouri Youcef - 2024</footer>
+<script script type="module" src="./js/app.js"></script>
+<?php
+       include_once __DIR__ ."/template/footer.inc.php";
+?>
 </body>
 </html>
