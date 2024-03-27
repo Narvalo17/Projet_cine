@@ -1,5 +1,5 @@
 <?php
-  include_once __DIR__ ."/include/head.inc.php";
+  include_once __DIR__ ."/template/head.inc.php";
 ?>
 <body>
   <header>
@@ -18,8 +18,8 @@
     </ul>
   </nav>
   <?php
-  include_once __DIR__ ."/include/mainid.inc.php";
-  include_once __DIR__ ."/include/footer.inc.php";
+  include_once __DIR__ ."/template/mainid.inc.php";
+  include_once __DIR__ ."/template/footer.inc.php";
 ?>
 </body>
 </html>

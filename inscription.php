@@ -1,5 +1,5 @@
 <?php
-  include_once __DIR__ ."/include/head.inc.php";
+  include_once __DIR__ ."/template/head.inc.php";
 ?>
 
 <body>
@@ -23,9 +23,9 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <?php
       
-      include_once __DIR__ ."/include/mainins.inc.php";
+      include_once __DIR__ ."/template/mainins.inc.php";
     
-       include_once __DIR__ ."/include/footer.inc.php";
+       include_once __DIR__ ."/template/footer.inc.php";
   ?>
    
 

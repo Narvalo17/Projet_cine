@@ -1,5 +1,5 @@
 <?php
-  include_once __DIR__ ."/include/head.inc.php";
+  include_once __DIR__ ."/template/head.inc.php";
 ?>
 <body>
   <header>
@@ -58,7 +58,7 @@
 </main>
 <script script type="module" src="./js/app.js"></script>
 <?php
-       include_once __DIR__ ."/include/footer.inc.php";
-  ?>
+       include_once __DIR__ ."/template/footer.inc.php";
+?>
 </body>
 </html>

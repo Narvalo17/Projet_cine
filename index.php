@@ -1,5 +1,5 @@
 <?php
-  include_once __DIR__ ."/include/head.inc.php";
+  include_once __DIR__ ."/template/head.inc.php";
 ?>
 
 <body>
@@ -23,8 +23,8 @@
 
 
   <?php
-    include_once __DIR__ ."/include/main.inc.php";
-    include_once __DIR__ ."/include/footer.inc.php";
+    include_once __DIR__ ."/template/main.inc.php";
+    include_once __DIR__ ."/template/footer.inc.php";
   ?>
   
 
