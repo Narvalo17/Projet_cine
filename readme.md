@@ -10,7 +10,7 @@ Cinéma a volonté  est une plateforme qui propose des films en straming qui per
 ![police](./asset/police%20de%20cara.png)
 
 ## BDD - cinéma
-![bdd](./asset/bdd.png)
+![bdd](./asset/bdd_film.png)
 
 # 👷Auteur 
 Mansouri Youcef
